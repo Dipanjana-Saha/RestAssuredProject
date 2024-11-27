@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-18T12:05:29Z" name="Suite" finished-at="2024-04-18T12:05:55Z" duration-ms="26022">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:Dipanjana.tests.ErrorValidationsTest@6f53b8a]" name="LoginErrorValidation" class="Dipanjana.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-04-18T12:05:29Z" name="error validation test" finished-at="2024-04-18T12:05:50Z" duration-ms="20925">
+      <class name="Dipanjana.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Dipanjana.tests.ErrorValidationsTest@6f53b8a]" started-at="2024-04-18T12:05:29Z" name="launchApplication" finished-at="2024-04-18T12:05:40Z" duration-ms="10962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:Dipanjana.tests.ErrorValidationsTest@6f53b8a]" started-at="2024-04-18T12:05:40Z" name="LoginErrorValidation" finished-at="2024-04-18T12:05:50Z" duration-ms="9409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Dipanjana.tests.ErrorValidationsTest@6f53b8a]" started-at="2024-04-18T12:05:50Z" name="tearDown" finished-at="2024-04-18T12:05:50Z" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Dipanjana.tests.ErrorValidationsTest -->
+    </test> <!-- error validation test -->
+    <test started-at="2024-04-18T12:05:29Z" name="Submit order test" finished-at="2024-04-18T12:05:55Z" duration-ms="26020">
+      <class name="Dipanjana.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Dipanjana.tests.SubmitOrderTest@4a003cbe]" started-at="2024-04-18T12:05:29Z" name="launchApplication" finished-at="2024-04-18T12:05:55Z" duration-ms="25458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Dipanjana.tests.SubmitOrderTest@4a003cbe]" started-at="2024-04-18T12:05:55Z" name="tearDown" finished-at="2024-04-18T12:05:55Z" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Dipanjana.tests.SubmitOrderTest -->
+    </test> <!-- Submit order test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Dipanjana.TestComponents.Listener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Submit order test(failed)">
+    <classes>
+      <class name="Dipanjana.tests.SubmitOrderTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="submitOrder"/>
+          <include name="OrderHistoryTest"/>
+        </methods>
+      </class> <!-- Dipanjana.tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Submit order test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

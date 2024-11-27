@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="11" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-24T22:40:48 IST" name="Loan Department" finished-at="2024-03-24T22:40:48 IST" duration-ms="111">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.Plan()[pri:0, instance:test.day2@71def8f8]" name="Plan" class="test.day2"/>
+        <method signature="day4.MobileLoginHomeLoan()[pri:0, instance:test.day4@383bfa16]" name="MobileLoginHomeLoan" class="test.day4"/>
+        <method signature="day3.MobileLoginCarLoan()[pri:0, instance:test.day3@201a4587]" name="MobileLoginCarLoan" class="test.day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-03-24T22:40:48 IST" name="Car Loan" finished-at="2024-03-24T22:40:48 IST" duration-ms="67">
+      <class name="test.day3">
+        <test-method is-config="true" signature="before()[pri:0, instance:test.day3@201a4587]" started-at="2024-03-24T22:40:48 IST" name="before" finished-at="2024-03-24T22:40:48 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method is-config="true" signature="execute()[pri:0, instance:test.day3@201a4587]" started-at="2024-03-24T22:40:48 IST" name="execute" finished-at="2024-03-24T22:40:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:test.day3@201a4587]" started-at="2024-03-24T22:40:48 IST" name="MobileLoginCarLoan" finished-at="2024-03-24T22:40:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2024-03-24T22:40:48 IST" name="Personal Loan" finished-at="2024-03-24T22:40:48 IST" duration-ms="111">
+      <class name="test.day4">
+        <test-method signature="LoginAPIHomeLoan()[pri:0, instance:test.day4@383bfa16]" started-at="2024-03-24T22:40:48 IST" name="LoginAPIHomeLoan" finished-at="2024-03-24T22:40:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:test.day4@383bfa16]" started-at="2024-03-24T22:40:48 IST" name="MobileLoginHomeLoan" finished-at="2024-03-24T22:40:48 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="WebloginHomeLoan()[pri:0, instance:test.day4@383bfa16]" started-at="2024-03-24T22:40:48 IST" name="WebloginHomeLoan" finished-at="2024-03-24T22:40:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method signature="Plan()[pri:0, instance:test.day2@71def8f8]" started-at="2024-03-24T22:40:48 IST" name="Plan" finished-at="2024-03-24T22:40:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Plan -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method is-config="true" signature="before()[pri:0, instance:test.day1@3d6f0054]" started-at="2024-03-24T22:40:48 IST" name="before" finished-at="2024-03-24T22:40:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="Demo(java.lang.String,java.lang.String)[pri:0, instance:test.day1@3d6f0054]" started-at="2024-03-24T22:40:48 IST" name="Demo" finished-at="2024-03-24T22:40:48 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="after()[pri:0, instance:test.day1@3d6f0054]" started-at="2024-03-24T22:40:48 IST" name="after" finished-at="2024-03-24T22:40:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
